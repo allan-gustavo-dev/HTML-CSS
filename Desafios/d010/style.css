@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: 'idroid';
+        src: url(../d010/pacote-projeto-d010/fontes/aaa.otf) format('opentype');
+    }
+    body {
+        background-color: #84E1AD;
+        
+    line-height: 1.6;
+    }
+    
+    header {
+        background-image: linear-gradient(to bottom,#3CD983, #154A2D);
+        color: white;
+        padding: 0px 0;        
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 2.0em;
+        margin: 0;
+        padding: 20px 0;
+        font-family: 'idroid', serif;
+    }
+    header p {
+        text-align: center;
+    }
+
+    header nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        text-align: right;
+    }
+     main {
+        background-color: #fff;
+        width: 70%;
+        margin: 0px auto;
+        padding: 5px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        font-family: Arial, sans-serif;
+    }
+
+     footer p {
+        text-align: center;
+        font-size: 0.9em;
+        color: #fff;
+        background-color: #154A2D;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+    #titulo {
+        font-family: 'idroid', serif;
+        font-size: 2em;
+    }
+    #subtitulo {
+        font-family: 'idroid', serif;
+        font-size: 1.5em; 
+        background-image: linear-gradient(to right,#3CD983, rgb(255, 255, 255));   
+    }
+    #extra {
+        background-color: #C5EBD6;
+        color: black;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: justify;
+    }  
+    #h3extra {
+        font-size: 1.5em; 
+        color: white;
+        background-color: #2FA866;
+       
+    } 
+    section#corpo {
+        margin: 20px auto;
+        padding: 0px 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        
+    }
+    p {
+        text-align: justify; 
+        text-indent: 40px;      
+    }
+
+    .bugdroid {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    .irina-blok {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+    
+    .dan-droids {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+    

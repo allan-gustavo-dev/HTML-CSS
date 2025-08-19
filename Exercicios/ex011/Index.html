@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <H1>música</H1>
+    <p>Vamos ouvir uma música</p>
+    <AUDIO src="media/Last-Cappuccino-in-Rio.mp3" controls autoplay>       
+    </AUDIO>
+    <h1>Imagem dinânmica</h1>
+    <p>Tente abrir essa imagem em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>

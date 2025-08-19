@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(206, 224, 224, 0.918);
+}
+
+h1{
+    color: rgb(31, 130, 97);
+}
+
+h2 {
+    color: rgb(86, 138, 121);
+}
+
+h1#principal {
+    color: rgb(0, 54, 36);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.basico {
+    color: rgb(135, 52, 11);
+    text-align: center;   
+}
+
+.intermediario {
+    color: rgb(7, 40, 105);
+    text-align: center;
+}
+
+.avancado {
+    color: rgb(133, 152, 6);
+    text-align: center;
+}
+
+.destaque {
+    background-color: rgb(189, 234, 53);
+    font-weight: bold;
+}
