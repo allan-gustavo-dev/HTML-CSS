@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células</title>
+    <style>
+        body {
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">aaaaa</th>                
+                <th>cccccc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1111</td>
+                <td>2222</td>
+                <td>3333</td>                
+            </tr>
+            <tr>
+                <td rowspan="3">4444</td>
+                <td>55555</td>
+                <td>666666</td>                
+            </tr>
+             <tr>                
+                <td>8888</td>
+                <td>9999</td>                
+            </tr>
+            <tr>                
+                <td>11111</td>
+                <td>12121212</td>                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>PÉEEEE</th>
+                <td colspan="2">123456789</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
